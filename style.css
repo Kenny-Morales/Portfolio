@@ -3,31 +3,36 @@
 :root {
   --teal: #22a39f;
   --dark: #222222;
-  --white: #6e6e6e;
-  --grey: #f3efe0;
+  --white: #f3efe0;
+  --grey: #6e6e6e;
 }
 
 * {
   margin: auto;
-}
-.hero {
-  display: flex;
   font-family: "Plein-Variable";
 }
+.hero {
+  height: 100vh;
+  display: flex;
+  background-color: var(--dark);
+}
 .left {
-  margin: 1rem;
+  margin: 24px 36px;
 }
 .logo {
   font-size: 64px;
   font-weight: 900;
+  color: var(--teal);
 }
 .intro.name {
   font-size: 128px;
   font-weight: 900;
+  color: var(--white);
 }
 .intro.descriptor {
   font-size: 40px;
   font-weight: 500;
+  color: var(--teal);
 }
 nav {
   display: flex;
