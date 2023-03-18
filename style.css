@@ -31,40 +31,44 @@
   color: var(--teal);
 }
 .intro.name {
-    margin-left: 0px;
-    margin-bottom: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
   font-size: 128px;
   font-weight: 900;
   color: var(--white);
 }
 .intro.descriptor {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
   font-size: 40px;
   font-weight: 500;
   color: var(--teal);
 }
 
-.right{
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    display: flex;
-    flex-direction: column;
-    align-content: baseline;
+.right {
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: baseline;
 }
-.icons{
-    display: flex;
-    margin-top: 36px;
-    margin-right: 36px;
-    gap: 36px;
+.icons {
+  display: flex;
+  margin-top: 36px;
+  margin-right: 36px;
+  gap: 36px;
 }
 .icons > a > img {
-    height: 75px;
+  height: 75px;
 }
 nav {
-    background-color: var(--teal);
+    margin-bottom: 0px;
+    margin-right: 0px;
+    height: 60vh;
+    width: 10vw;
+  background-color: var(--teal);
   display: flex;
   flex-direction: column;
 }
