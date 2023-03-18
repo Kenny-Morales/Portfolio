@@ -55,8 +55,10 @@
     align-content: baseline;
 }
 .icons{
+    display: flex;
     margin-top: 36px;
     margin-right: 36px;
+    gap: 36px;
 }
 .icons > a > img {
     height: 75px;
