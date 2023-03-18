@@ -44,6 +44,10 @@
   font-weight: 500;
   color: var(--teal);
 }
+
+.icons > a > img {
+    height: 75px;
+}
 nav {
     background-color: var(--teal);
   display: flex;
