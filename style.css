@@ -1,8 +1,10 @@
+@import url('plein.css');
 *{
     margin: auto;
 }
 .hero{
     display: flex;
+    font-family: 'Plein-Variable';
 }
 .left{
     margin: 1rem;
