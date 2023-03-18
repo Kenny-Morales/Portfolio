@@ -18,18 +18,28 @@
 }
 .left {
   margin: 24px 36px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
 }
 .logo {
+  margin-top: 0px;
+  margin-left: 0px;
   font-size: 64px;
   font-weight: 900;
   color: var(--teal);
 }
 .intro.name {
+    margin-left: 0px;
+    margin-bottom: 0px;
   font-size: 128px;
   font-weight: 900;
   color: var(--white);
 }
 .intro.descriptor {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
   font-size: 40px;
   font-weight: 500;
   color: var(--teal);
