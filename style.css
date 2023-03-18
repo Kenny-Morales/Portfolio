@@ -26,14 +26,14 @@
 .logo {
   margin-top: 0px;
   margin-left: 0px;
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 900;
   color: var(--teal);
 }
 .intro.name {
   margin-left: 0px;
   margin-bottom: 0px;
-  font-size: 128px;
+  font-size: 96px;
   font-weight: 900;
   color: var(--white);
 }
@@ -41,7 +41,7 @@
   margin-top: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
-  font-size: 40px;
+  font-size: 24px;
   font-weight: 500;
   color: var(--teal);
 }
@@ -58,16 +58,17 @@
   display: flex;
   margin-top: 36px;
   margin-right: 36px;
-  gap: 36px;
+  gap: 24px;
 }
 .icons > a > img {
-  height: 75px;
+  height: 50px;
 }
 nav {
     margin-bottom: 0px;
     margin-right: 0px;
     height: 60vh;
     width: 10vw;
+    border-top-left-radius: 50px;
   background-color: var(--teal);
   display: flex;
   flex-direction: column;
