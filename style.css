@@ -1,15 +1,27 @@
 @import url('plein.css');
-*{
+* {
     margin: auto;
 }
-.hero{
+.hero {
     display: flex;
     font-family: 'Plein-Variable';
 }
-.left{
+.left {
     margin: 1rem;
 }
-nav{
+.logo {
+    font-size: 64px;
+    font-weight: 900;
+}
+.intro.name {
+    font-size: 128px;
+    font-weight: 900;
+}
+.intro.descriptor {
+    font-size: 40px;
+    font-weight: 500;
+}
+nav {
     display: flex;
     flex-direction: column;
 }
