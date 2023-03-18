@@ -45,6 +45,7 @@
   color: var(--teal);
 }
 nav {
+    background-color: var(--teal);
   display: flex;
   flex-direction: column;
 }
