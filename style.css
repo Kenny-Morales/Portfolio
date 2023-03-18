@@ -1,5 +1,11 @@
+*{
+    margin: auto;
+}
 .hero{
     display: flex;
+}
+.left{
+    margin: 1rem;
 }
 nav{
     display: flex;
