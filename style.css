@@ -1,27 +1,35 @@
-@import url('plein.css');
+@import url("plein.css");
+
+:root {
+  --teal: #22a39f;
+  --dark: #222222;
+  --white: #6e6e6e;
+  --grey: #f3efe0;
+}
+
 * {
-    margin: auto;
+  margin: auto;
 }
 .hero {
-    display: flex;
-    font-family: 'Plein-Variable';
+  display: flex;
+  font-family: "Plein-Variable";
 }
 .left {
-    margin: 1rem;
+  margin: 1rem;
 }
 .logo {
-    font-size: 64px;
-    font-weight: 900;
+  font-size: 64px;
+  font-weight: 900;
 }
 .intro.name {
-    font-size: 128px;
-    font-weight: 900;
+  font-size: 128px;
+  font-weight: 900;
 }
 .intro.descriptor {
-    font-size: 40px;
-    font-weight: 500;
+  font-size: 40px;
+  font-weight: 500;
 }
 nav {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
