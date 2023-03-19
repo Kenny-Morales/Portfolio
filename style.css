@@ -27,14 +27,14 @@
 .logo {
   margin-top: 0px;
   margin-left: 0px;
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 900;
   color: var(--teal);
 }
 .intro.name {
   margin-left: 0px;
   margin-bottom: 0px;
-  font-size: 84px;
+  font-size: 96px;
   font-weight: 900;
   color: var(--white);
 }
@@ -42,7 +42,7 @@
   margin-top: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 500;
   color: var(--teal);
 }
@@ -57,12 +57,12 @@
 }
 .icons {
   display: flex;
-  margin-top: 24px;
-  margin-right: 24px;
-  gap: 24px;
+  margin-top: 36px;
+  margin-right: 36px;
+  gap: 36px;
 }
 .icons > a > img {
-  height: 35px;
+  height: 50px;
 }
 nav {
     position: fixed;
@@ -77,6 +77,19 @@ nav {
   display: flex;
   flex-direction: column;
 }
+nav a.active {
+  color: white;
+  font-weight: 500;
+  font-size: 36px;
+  rotate: 90deg;
+  transition-duration: 250ms;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 24px;
+}
 .about {
   height: 100vh;
 }
+
