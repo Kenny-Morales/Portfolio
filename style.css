@@ -2,7 +2,7 @@
 
 :root {
   --teal: #22a39f;
-  --dark: #181818;
+  --dark: #212121;
   --white: #f3efe0;
   --grey: #6e6e6e;
 }
@@ -80,7 +80,7 @@ nav {
   flex-direction: column;
 }
 nav a.active {
-  color: white;
+  color: var(--white);
   font-weight: 500;
   font-size: 36px;
   rotate: 360deg;
@@ -91,7 +91,27 @@ a {
   text-decoration: none;
   font-size: 24px;
 }
-.about {
-  height: 100vh;
+.about{
+  display: flex;
+  justify-content: start;
+
+}
+.container{
+  background-color: var(--white);
+  width: 40vw;
+  height: 70vh;
+  border-radius: 10%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
+.top, .medium, .bottom {
+  margin: 10px 30px;
+}
+.container > .top {
+  margin-top: 30px;
+}
+.container > .bottom {
+  margin-bottom: 30px;
+}
