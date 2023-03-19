@@ -12,11 +12,13 @@
   font-family: "Plein-Variable";
   overflow-x: hidden;
 }
-.hero {
+section {
+  background-color: var(--dark);
   height: 100vh;
   width: 100vw;
+}
+.hero {
   display: flex;
-  background-color: var(--dark);
 }
 .left {
   margin: 24px 36px;
@@ -81,8 +83,8 @@ nav a.active {
   color: white;
   font-weight: 500;
   font-size: 36px;
-  rotate: 90deg;
-  transition-duration: 250ms;
+  rotate: 360deg;
+  transition-duration: 500ms;
 }
 a {
   color: inherit;
