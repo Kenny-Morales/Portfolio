@@ -10,6 +10,7 @@
 * {
   margin: auto;
   font-family: "Plein-Variable";
+  overflow-x: hidden;
 }
 .hero {
   height: 100vh;
@@ -64,6 +65,9 @@
   height: 50px;
 }
 nav {
+    position: fixed;
+    bottom: 0;
+    right: 0;
     margin-bottom: 0px;
     margin-right: 0px;
     height: 60vh;
@@ -72,4 +76,7 @@ nav {
   background-color: var(--teal);
   display: flex;
   flex-direction: column;
+}
+.about {
+  height: 100vh;
 }
