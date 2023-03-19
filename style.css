@@ -27,14 +27,14 @@
 .logo {
   margin-top: 0px;
   margin-left: 0px;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 900;
   color: var(--teal);
 }
 .intro.name {
   margin-left: 0px;
   margin-bottom: 0px;
-  font-size: 96px;
+  font-size: 84px;
   font-weight: 900;
   color: var(--white);
 }
@@ -57,12 +57,12 @@
 }
 .icons {
   display: flex;
-  margin-top: 36px;
-  margin-right: 36px;
+  margin-top: 24px;
+  margin-right: 24px;
   gap: 24px;
 }
 .icons > a > img {
-  height: 50px;
+  height: 35px;
 }
 nav {
     position: fixed;
