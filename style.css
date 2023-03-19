@@ -50,9 +50,11 @@ section {
 }
 
 .right {
+  position: fixed;
   margin-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+  right: 0;
   display: flex;
   flex-direction: column;
   align-content: baseline;
@@ -100,7 +102,7 @@ a {
   background-color: var(--white);
   width: 40vw;
   height: 70vh;
-  border-radius: 10%;
+  border-radius: 7.5%;
   margin-left: 50px;
   display: flex;
   flex-direction: column;
