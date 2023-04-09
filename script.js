@@ -29,4 +29,15 @@ window.addEventListener('scroll', () => {
   });
 });
 
+const imageContainer = document.getElementById('image-container');
+const image = document.getElementById('image');
+const options = document.querySelectorAll('.option');
+
+options.forEach(option => {
+  option.addEventListener('click', () => {
+    const imagePath = option.getAttribute('data-image');
+    image.setAttribute('src', imagePath);
+  });
+})
+
 

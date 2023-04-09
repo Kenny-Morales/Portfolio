@@ -85,7 +85,6 @@ nav a.active {
   color: var(--white);
   font-weight: 500;
   font-size: 36px;
-  rotate: 360deg;
   transition-duration: 500ms;
 }
 a {
@@ -125,3 +124,49 @@ nav > a:hover{
 .container > .bottom {
   margin-bottom: 30px;
 }
+
+.goals{
+  display: flex;
+  align-items: center;
+}
+#options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 50vw;
+  margin: 0px;
+}
+.option.option1{
+  position: absolute;
+  margin-left: 50px;
+  background-color: var(--teal);
+  border-radius: 100%;
+  width: 650px;
+  height: 650px;
+}
+.option.option2{
+  position: absolute;
+  margin-left: 131.25px;
+  background-color: var(--white);
+  border-radius: 100%;
+  width: 487.5px;
+  height: 487.5px;
+}
+.option.option3{
+  position: absolute;
+  margin-left: 212.5px;
+  background-color: var(--teal);
+  border-radius: 100%;
+  width: 325px;
+  height: 325px;
+}
+.option.option4{
+  position: absolute;
+  margin-left: 293.75px;
+  background-color: var(--white);
+  border-radius: 100%;
+  width: 162.5px;
+  height: 162.5px;
+}
+
