@@ -93,23 +93,31 @@ a {
   text-decoration: none;
   font-size: 24px;
 }
+nav > a:hover{
+  color: white;
+  font-size: 36px;
+  transition-duration: 350ms;
+  font-weight: 500;
+}
 .about{
   display: flex;
   justify-content: start;
 
 }
 .container{
-  background-color: var(--white);
+  background-color: var(--grey);
   width: 40vw;
-  height: 70vh;
-  border-radius: 7.5%;
-  margin-left: 50px;
+  height: 80vh;
+  border-top-right-radius: 7.5%;
+  border-bottom-right-radius: 7.5%;
+  margin-left: 0px;
   display: flex;
   flex-direction: column;
 }
 
 .top, .medium, .bottom {
   margin: 10px 30px;
+  color: var(--dark);
 }
 .container > .top {
   margin-top: 30px;
