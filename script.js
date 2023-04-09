@@ -29,15 +29,14 @@ window.addEventListener('scroll', () => {
   });
 });
 
-const imageContainer = document.getElementById('image-container');
-const image = document.getElementById('image');
+const content = document.getElementById('content');
 const options = document.querySelectorAll('.option');
 
 options.forEach(option => {
   option.addEventListener('click', () => {
-    const imagePath = option.getAttribute('data-image');
-    image.setAttribute('src', imagePath);
+    const contentText = option.getAttribute('data-content');
+    content.innerHTML = contentText;
   });
-})
+});
 
 
