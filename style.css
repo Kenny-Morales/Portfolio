@@ -134,11 +134,11 @@ nav > a:hover{
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  margin-left: 0;
+  margin-left: 0px;
 }
 .option.option1{
   position: absolute;
-  margin-left: 50px;
+  margin-left: 185px;
   background-color: var(--teal);
   border-radius: 100%;
   width: 650px;
@@ -146,7 +146,7 @@ nav > a:hover{
 }
 .option.option2{
   position: absolute;
-  margin-left: 131.25px;
+  margin-left: 266.25px;
   background-color: var(--white);
   border-radius: 100%;
   width: 487.5px;
@@ -154,7 +154,7 @@ nav > a:hover{
 }
 .option.option3{
   position: absolute;
-  margin-left: 212.5px;
+  margin-left: 347.5px;
   background-color: var(--teal);
   border-radius: 100%;
   width: 325px;
@@ -162,7 +162,7 @@ nav > a:hover{
 }
 .option.option4{
   position: absolute;
-  margin-left: 293.75px;
+  margin-left: 428.75px;
   background-color: var(--white);
   border-radius: 100%;
   width: 162.5px;
