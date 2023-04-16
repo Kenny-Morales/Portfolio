@@ -101,6 +101,7 @@ nav > a:hover{
 .about{
   display: flex;
   justify-content: start;
+  font-size: 1.25em;
 
 }
 .container{
@@ -115,9 +116,15 @@ nav > a:hover{
 }
 
 .top, .medium, .bottom{
-  margin-left: 10px;
+  margin-left: 0px;
   padding: 10px 30px;
   color: var(--dark);
+}
+.goal.bottom{
+  padding-bottom: 30px;
+}
+.goal.top{
+  padding-top: 30px;
 }
 
 .goals{
@@ -128,12 +135,12 @@ nav > a:hover{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
-  margin-left: 0px;
+  align-items: center;
+  height: 650px;
+  width: 650px;
 }
 .option.option1{
   position: absolute;
-  margin-left: 185px;
   background-color: var(--teal);
   border-radius: 100%;
   width: 650px;
@@ -141,7 +148,6 @@ nav > a:hover{
 }
 .option.option2{
   position: absolute;
-  margin-left: 266.25px;
   background-color: var(--white);
   border-radius: 100%;
   width: 487.5px;
@@ -149,7 +155,6 @@ nav > a:hover{
 }
 .option.option3{
   position: absolute;
-  margin-left: 347.5px;
   background-color: var(--teal);
   border-radius: 100%;
   width: 325px;
@@ -157,15 +162,12 @@ nav > a:hover{
 }
 .option.option4{
   position: absolute;
-  margin-left: 428.75px;
   background-color: var(--white);
   border-radius: 100%;
   width: 162.5px;
   height: 162.5px;
 }
 #content-container{
-  margin-left: auto;
-  margin-right: 185px;
   display: flex;
   align-items: center;
   justify-content: center;
