@@ -1,33 +1,51 @@
-// Get all the navigation links on the page
 const navLinks = document.querySelectorAll('nav a');
 
-// Listen for scroll events
+navLinks.forEach((link) => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+    const linkHref = link.getAttribute('href');
+    const target = document.querySelector(linkHref);
+    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+    const startPosition = window.pageYOffset;
+    const distance = targetPosition - startPosition;
+    const duration = 1000;
+    let start = null;
+
+    function step(timestamp) {
+      if (!start) start = timestamp;
+      const progress = timestamp - start;
+      window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
+      if (progress < duration) window.requestAnimationFrame(step);
+    }
+
+    function easeInOutCubic(t, b, c, d) {
+      t /= d / 2;
+      if (t < 1) return c / 2 * t * t * t + b;
+      t -= 2;
+      return c / 2 * (t * t * t + 2) + b;
+    }
+
+    window.requestAnimationFrame(step);
+  });
+});
+
 window.addEventListener('scroll', () => {
-  // Get the current scroll position
   const currentScrollPos = window.pageYOffset;
 
-  // Loop through each navigation link on the page
   navLinks.forEach((link) => {
-    // Get the href attribute value of the link and remove the '#' character
-    const linkHref = link.getAttribute('href').slice(1);
+    const linkHref = link.getAttribute('href');
+    const target = document.querySelector(linkHref);
+    const sectionTop = target.offsetTop - 100;
+    const sectionBottom = sectionTop + target.offsetHeight;
 
-    // Get the corresponding section element
-    const section = document.getElementById(linkHref);
-
-    // Get the top and bottom position of the section
-    const sectionTop = section.offsetTop;
-    const sectionBottom = section.offsetTop + section.offsetHeight;
-
-    // Check if the current scroll position is within the section
     if (currentScrollPos >= sectionTop && currentScrollPos < sectionBottom) {
-      // Add the 'active' class to the corresponding navigation link
-      link.classList.add('active');
+      link.classList.add('active')
     } else {
-      // Remove the 'active' class from the corresponding navigation link
       link.classList.remove('active');
     }
   });
 });
+
 
 const content = document.getElementById('content');
 const options = document.querySelectorAll('.option');
