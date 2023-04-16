@@ -106,23 +106,18 @@ nav > a:hover{
 .container{
   background-color: var(--grey);
   width: 40vw;
-  height: 80vh;
   border-top-right-radius: 5%;
   border-bottom-right-radius: 5%;
   margin-left: 0px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-.top, .medium, .bottom {
-  margin: 10px 30px;
+.top, .medium, .bottom{
+  margin-left: 10px;
+  padding: 10px 30px;
   color: var(--dark);
-}
-.container > .top {
-  margin-top: 30px;
-}
-.container > .bottom {
-  margin-bottom: 30px;
 }
 
 .goals{
