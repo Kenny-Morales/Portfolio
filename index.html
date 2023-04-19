@@ -4,58 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewPortt" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <title>Kenny's Porttfollio</title>
 </head>
 
 <body>
+    <!--Navbar-->
+    <div class="navbar-icons">
+        <div class="icons">
+            <a><img src="src/resume-icon.png" alt="src/github-icon"></a>
+            <a><img src="src/github-icon.png" alt="src/resume-icon"></a>
+        </div>
+    </div>
+        <nav>
+            <a href="#hero" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#goals">Goals</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
     <!-- Hero Section -->
     <section id="hero" class="hero">
-        <div class="left content">
             <p class="logo">KM</p>
-            <p class="intro name">Kenny Morales</p>
-            <p class="intro descriptor">Develop | Design | Create</p>
-        </div>
-        <div class="right content">
-            <div class="icons">
-                <a><img src="src/resume-icon.png"></a>
-                <a><img src="src/github-icon.png"></a>
+            <div class="intro">
+                <p class="name">Kenny Morales</p>
+                <p class="descriptor">Develop | Design | Create</p>
             </div>
-            <nav>
-                <a href="#hero" class="active">Home</a>
-                <a href="#about">About</a>
-                <a href="#goals">Goals</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </div>
     </section>
 
     <!-- About Section  -->
     <section id="about" class="about">
         <div class="container">
             <h1 class="goal top"><span style="font-size: 36px;">Who</span></h1>
-            <p class="medium">I'm fascinated by the inner workings of the systems that shape our daily lives. In my free time, I like to play pickup basketball, watch entertaining YouTube videos, and stay up-to-date with technology trends and advancements. If I had to describe myself in one word, I would choose "iridescent," because I am multifaceted, constantly changing, and always seeking to discover new things.</p>
+            <p class="medium">I'm fascinated by the inner workings of the systems that shape our daily lives. In my free
+                time, I like to play pickup basketball, watch entertaining YouTube videos, and stay up-to-date with
+                technology trends and advancements. If I had to describe myself in one word, I would choose
+                "iridescent," because I am multifaceted, constantly changing, and always seeking to discover new things.
+            </p>
             <h1 class="medium"><span style="font-size: 36px;">What</span></h1>
-            <p class="medium">Growing up in Grand Island, Nebraska, I learned the value of resilience and determination. Despite facing challenges when my mom was deported and I had to move in with my aunt, I adapted and persevered. This experience taught me to overcome unexpected obstacles and instilled in me a determination to succeed. Today, I am optimistic about the future and excited to see where my journey takes me.</p>
+            <p class="medium">Growing up in Grand Island, Nebraska, I learned the value of resilience and determination.
+                Despite facing challenges when my mom was deported and I had to move in with my aunt, I adapted and
+                persevered. This experience taught me to overcome unexpected obstacles and instilled in me a
+                determination to succeed. Today, I am optimistic about the future and excited to see where my journey
+                takes me.</p>
             <h1 class="medium"><span style="font-size: 36px;">When</span></h1>
-            <p class="goal bottom">Last year, I discovered my passion for coding while designing a self-stirring water bottle. Despite learning Java a year prior and finding it boring, I was immersed in the experience of coding this time around. I realized how much I enjoyed being creative and how gratifying design could be. Since then, I've been amazed by the endless possibilities and limitations that coding offers. Each new project is like a blank canvas, waiting for me to create something beautiful with my code. My passion for coding and design continues to grow with each project, and I am excited to see where it will take me in the future. </p>
+            <p class="goal bottom">Last year, I discovered my passion for coding while designing a self-stirring water
+                bottle. Despite learning Java a year prior and finding it boring, I was immersed in the experience of
+                coding this time around. I realized how much I enjoyed being creative and how gratifying design could
+                be. Since then, I've been amazed by the endless possibilities and limitations that coding offers. Each
+                new project is like a blank canvas, waiting for me to create something beautiful with my code. My
+                passion for coding and design continues to grow with each project, and I am excited to see where it will
+                take me in the future. </p>
         </div>
     </section>
 
     <!-- Goals Section -->
     <section id="goals" class="goals">
         <div id="options">
-          <div class="option option1" data-content="This is content for option 1"></div>
-          <div class="option option2" data-content="This is content for option 2"></div>
-          <div class="option option3" data-content="This is content for option 3"></div>
-          <div class="option option4" data-content="This is content for option 4"></div>
+            <div class="option option1" data-content="This is content for option 1"></div>
+            <div class="option option2" data-content="This is content for option 2"></div>
+            <div class="option option3" data-content="This is content for option 3"></div>
+            <div class="option option4" data-content="This is content for option 4"></div>
         </div>
 
         <div id="content-container">
-          <div class="content" id="content">Click on each section of the board to unravel my goals</div>
+            <div class="content" id="content">Click on each section of the board to unravel my goals</div>
         </div>
-      </section>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
@@ -63,4 +79,5 @@
     </section>
 </body>
 <script src="script.js"></script>
+
 </html>
