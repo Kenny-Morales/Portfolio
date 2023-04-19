@@ -99,32 +99,27 @@ nav > a:hover {
 .about {
   display: flex;
   justify-content: center;
-  gap: 200px;
-  padding: 200px 0px;
-  padding-right: 200px;
-}
-.about p{
-  font-size: 18px;
-}
-.about h1{
-  font-size: 36px;
+  align-content: flex-start;
+  padding:200px 0px;
+  gap: 100px;
 }
 .about-me {
   flex-direction: column;
-  flex: 1.25;
   gap: 20px;
   padding: 20px;
   background-color: var(--grey);
   border-top-right-radius: 5%;
   border-bottom-right-radius: 5%;
+  width: 50vw;
   margin-left: 0px;
+  margin-right:0px;
   display: flex;
 }
 .about img {
-  flex: 1;
-  border-radius: 10%;
-  max-height: 650px;
-  max-width: 520px;
+  border-radius: 15%;
+  margin-left: 0;
+  max-width: 380px;
+  max-height: 475px;
 }
 
 /*goals*/
