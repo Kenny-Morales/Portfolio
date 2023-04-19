@@ -40,8 +40,8 @@ nav {
   right: 0;
   margin-bottom: 0px;
   margin-right: 0px;
-  height: 60vh;
-  width: 10vw;
+  height: 500px;
+  width: 150px;
   border-top-left-radius: 50px;
   background-color: var(--teal);
 }
@@ -98,25 +98,29 @@ nav > a:hover {
 /*about*/
 .about {
   display: flex;
-  justify-content: start;
+  justify-content: center;
+  gap: 400px;
+  padding: 50px 0px;
 }
-.container {
+.about p{
+  font-size: 18px;
+}
+.about h1{
+  font-size: 36px;
+}
+.about-me {
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
   background-color: var(--grey);
-  width: 40vw;
   border-top-right-radius: 5%;
   border-bottom-right-radius: 5%;
   margin-left: 0px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
-
-.top,
-.medium,
-.bottom {
-  margin-left: 0px;
-  padding: 10px 30px;
-  color: var(--dark);
+img {
+  margin-right: 400px;
+  border-radius: 100px;
 }
 
 /*goals*/
