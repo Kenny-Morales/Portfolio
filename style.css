@@ -101,6 +101,7 @@ nav > a:hover {
   justify-content: center;
   gap: 200px;
   padding: 200px 0px;
+  padding-right: 200px;
 }
 .about p{
   font-size: 18px;
@@ -110,6 +111,7 @@ nav > a:hover {
 }
 .about-me {
   flex-direction: column;
+  flex: 1.25;
   gap: 20px;
   padding: 20px;
   background-color: var(--grey);
@@ -119,8 +121,10 @@ nav > a:hover {
   display: flex;
 }
 .about img {
-  margin-right: 200px;
-  border-radius: 100px;
+  flex: 1;
+  border-radius: 10%;
+  max-height: 750px;
+  max-width: 600px;
 }
 
 /*goals*/
