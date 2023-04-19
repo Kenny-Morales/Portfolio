@@ -99,8 +99,8 @@ nav > a:hover {
 .about {
   display: flex;
   justify-content: center;
-  gap: 400px;
-  padding: 50px 0px;
+  gap: 200px;
+  padding: 200px 0px;
 }
 .about p{
   font-size: 18px;
@@ -118,8 +118,8 @@ nav > a:hover {
   margin-left: 0px;
   display: flex;
 }
-img {
-  margin-right: 400px;
+.about img {
+  margin-right: 200px;
   border-radius: 100px;
 }
 
