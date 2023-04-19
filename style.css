@@ -123,8 +123,8 @@ nav > a:hover {
 .about img {
   flex: 1;
   border-radius: 10%;
-  max-height: 750px;
-  max-width: 600px;
+  max-height: 650px;
+  max-width: 520px;
 }
 
 /*goals*/
